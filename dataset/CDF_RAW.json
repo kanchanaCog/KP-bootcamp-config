@@ -41,7 +41,7 @@
 		],
 		"typeProperties": {
 			"schema": "public",
-			"table": "raw_rows"
+			"table": "raw_tables"
 		}
 	}
 }
