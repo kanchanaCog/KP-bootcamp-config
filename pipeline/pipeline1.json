@@ -31,7 +31,10 @@
 						"mappings": [
 							{
 								"source": {
-									"name": ""
+									"name": "id",
+									"type": "bigint",
+									"scale": 0,
+									"precision": 0
 								}
 							}
 						],
