@@ -15,8 +15,18 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"source": {
+						"type": "AzurePostgreSqlSource",
+						"partitionOption": "None"
+					},
 					"enableStaging": false
-				}
+				},
+				"inputs": [
+					{
+						"referenceName": "CDF_assets",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
 		"annotations": []

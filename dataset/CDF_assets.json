@@ -1,0 +1,12 @@
+{
+	"name": "CDF_assets",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CDF_assets",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzurePostgreSqlTable",
+		"schema": []
+	}
+}
