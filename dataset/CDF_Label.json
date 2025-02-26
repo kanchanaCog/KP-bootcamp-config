@@ -1,10 +1,6 @@
 {
 	"name": "CDF_Label",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "AzurePostgreSql2",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "AzurePostgreSqlTable",
 		"schema": []
