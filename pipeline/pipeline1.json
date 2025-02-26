@@ -35,8 +35,29 @@
 									"type": "bigint",
 									"scale": 0,
 									"precision": 0
+								},
+								"sink": {
+									"name": "external_id",
+									"type": "character varying",
+									"scale": 0,
+									"precision": 0
 								}
-							}
+							},
+							{
+								"source": {
+									"name": "name",
+									"type": "character varying",
+									"scale": 0,
+									"precision": 0
+								},
+								"sink": {
+									"name": "name",
+									"type": "character varying",
+									"scale": 0,
+									"precision": 0
+								}
+							},
+							null
 						],
 						"typeConversion": true,
 						"typeConversionSettings": {
