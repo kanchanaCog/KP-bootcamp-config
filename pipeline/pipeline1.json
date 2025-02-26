@@ -17,6 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "AzurePostgreSqlSource",
+						"query": "select * from public.assets",
 						"partitionOption": "None"
 					},
 					"sink": {
