@@ -19,11 +19,31 @@
 						"type": "AzurePostgreSqlSource",
 						"partitionOption": "None"
 					},
-					"enableStaging": false
+					"sink": {
+						"type": "AzurePostgreSQLSink",
+						"writeBatchSize": 1000000,
+						"writeBatchTimeout": "00:30:00",
+						"writeMethod": "CopyCommand"
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
 				},
 				"inputs": [
 					{
 						"referenceName": "CDF_assets",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "CDF_RAW",
 						"type": "DatasetReference"
 					}
 				]

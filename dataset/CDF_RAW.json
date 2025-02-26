@@ -1,0 +1,47 @@
+{
+	"name": "CDF_RAW",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CDF_RAW",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzurePostgreSqlTable",
+		"schema": [
+			{
+				"name": "_raw_key",
+				"type": "text",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "_raw_database",
+				"type": "character varying",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "_raw_table",
+				"type": "character varying",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "_raw_last_updated_time",
+				"type": "timestamp with time zone",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "_raw_columns",
+				"type": "json",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "public",
+			"table": "raw_rows"
+		}
+	}
+}
