@@ -31,10 +31,7 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "name",
-									"type": "character varying",
-									"scale": 0,
-									"precision": 0
+									"name": ""
 								}
 							}
 						],
