@@ -43,7 +43,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "CDF_RAW",
+						"referenceName": "CDF_Label",
 						"type": "DatasetReference"
 					}
 				]
