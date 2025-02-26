@@ -1,0 +1,9 @@
+{
+	"name": "AzureDevDatafactoryKP",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1311d7eb-5c98-4f40-8303-f092520447e0",
+		"tenantId": "a9ae5b54-3600-4917-a9dc-3020723360b3"
+	}
+}
