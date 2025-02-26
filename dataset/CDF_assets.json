@@ -7,10 +7,95 @@
 		},
 		"annotations": [],
 		"type": "AzurePostgreSqlTable",
-		"schema": [],
+		"schema": [
+			{
+				"name": "id",
+				"type": "bigint",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "name",
+				"type": "character varying",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "external_id",
+				"type": "character varying",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "parent_id",
+				"type": "bigint",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "parent_external_id",
+				"type": "character varying",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "description",
+				"type": "character varying",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "source",
+				"type": "character varying",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "created_time",
+				"type": "timestamp with time zone",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "last_updated_time",
+				"type": "timestamp with time zone",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "metadata",
+				"type": "json",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "root_id",
+				"type": "bigint",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "data_set_id",
+				"type": "bigint",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "labels",
+				"type": "ARRAY",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "geo_location",
+				"type": "json",
+				"precision": 0,
+				"scale": 0
+			}
+		],
 		"typeProperties": {
-			"schema": "information_schema",
-			"table": "parameters"
+			"schema": "public",
+			"table": "assets"
 		}
 	}
 }
