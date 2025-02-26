@@ -57,7 +57,20 @@
 									"precision": 0
 								}
 							},
-							null
+							{
+								"source": {
+									"name": "created_time",
+									"type": "timestamp with time zone",
+									"scale": 0,
+									"precision": 0
+								},
+								"sink": {
+									"name": "created_time",
+									"type": "timestamp with time zone",
+									"scale": 0,
+									"precision": 0
+								}
+							}
 						],
 						"typeConversion": true,
 						"typeConversionSettings": {
